@@ -1,0 +1,7 @@
+.add-todo-container{
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    top: 0;
+    background: #0000009e;
+}

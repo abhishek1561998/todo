@@ -1,0 +1,121 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.auth-container > * {
+  flex: 1;
+  margin: 20px;
+}
+
+
+
+.todo-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.logout-btn {
+  background-color: #ff6347;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: 2rem;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-item {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-details h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.todo-details p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.todo-status {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.todo-status.completed {
+  color: green;
+}
+
+.todo-status.pending {
+  color: red;
+}
+
+.app-header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.auth-tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.auth-tab {
+  background-color: #f2f2f2;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.auth-tab.active {
+  background-color: #333;
+  color: white;
+}
+
+.auth-form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.todo-heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.todo-heading h2{
+  margin-top: 2.5rem;
+}
